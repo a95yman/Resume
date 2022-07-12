@@ -1,0 +1,145 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #EFF2FF;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+#wrapper{
+    height: 100%;
+    margin: 0 auto;
+}
+.paper{
+    width: 210mm;
+    border: 1px solid #aaa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: white;
+    margin-left: auto;
+    margin-right: 5%;
+    box-shadow: rgba(0,0,0,0.3) 0px 0px 20px 0px;
+    display: flex;
+    height: 295mm;
+}
+.paper #left{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paper #right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile-pic{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profile-pic img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+#desc{
+    width: 90%;
+    background: rgb(245,245,245);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+#desc a{
+    margin-top: 5px;
+    color: #666;
+    font-size: 16px;
+}
+#desc p{
+    width: 85%;
+    line-height: 1.3;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+h1, h2, h3{
+    margin: 0;
+}
+h2{
+    color: #444;
+}
+*{
+    font-family: sans-serif;
+    user-select: none;
+}
+.title{
+    width: 120px;
+    height: 37px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background: orange;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.con{
+    width:85%;
+}
+#left .title{
+    margin-right: auto;
+}
+.info{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.info img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info-vertical{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#left .info-vertical a{
+    color: #777;
+    font-weight: bold;
+}
+#left .info-vertical p{
+    line-height: 1.3;
+    color: #444;
+}
+.element{
+    display: inline-block;
+    width: 45%;
+}
+.percentage{
+    width: 100%;
+    height: 4px;
+    margin-top: 12px;
+    background: #ccc;
+    margin-bottom:20px; 
+}
